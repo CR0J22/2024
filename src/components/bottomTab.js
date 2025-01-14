@@ -18,7 +18,7 @@ export default function MyTabBar() {
 
   return (
     <Tab.Navigator
-      initialRouteName={"Timer"}
+      initialRouteName={"Todo"}
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,

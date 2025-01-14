@@ -72,6 +72,7 @@ function Items({ done: doneHeading, onPressItem }) {
                     }}>
                         {value}
                     </Text>
+                    
 
                 </TouchableOpacity>
             ))}
@@ -133,7 +134,7 @@ export default function Todo() {
                                 setText(null);
                             }}
                             placeholder="Em 2024 eu vou..."
-                            
+
                             style={styles.input}
                             value={text}
                         />
@@ -196,7 +197,6 @@ const styles = StyleSheet.create({
     titleText: {
         color: '#fff',
         textAlign: 'center',
-
         fontSize: 22,
     },
     titleCont: {
